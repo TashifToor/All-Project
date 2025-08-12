@@ -1,0 +1,39 @@
+.container-fluid {
+    height: 60px;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack image on top, text below */
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically */
+    min-height: calc(100vh - 80px);
+    /* Full height minus navbar height */
+    text-align: center;
+    /* Center text lines */
+    padding: 20px;
+}
+
+.about-container img {
+    max-width: 400px;
+    /* Keep image responsive */
+    width: 100%;
+    border-radius: 10px;
+    /* Optional rounded corners */
+}
+
+.about-container p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    /* Keep text readable */
+    color: #333;
+}
